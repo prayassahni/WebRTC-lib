@@ -1,0 +1,1 @@
+Javascript Library that implements DBS2(Data brodacasting set of rules) and NTS(NAT traversal Set Of Rules) layer for P2PSP protocol.
