@@ -28,7 +28,8 @@ peer.connectToSplitter();
 ##### Signalling Server usage:
 
 ```javascript
-
+//Install websocket module to node_modules
+ npm install websocket
 //After moving to current directory
 node ./server.js
 
