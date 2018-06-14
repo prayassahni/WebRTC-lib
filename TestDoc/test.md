@@ -26,14 +26,13 @@ peer.connectToSplitter();
 ```
 
 ##### Signalling Server usage:
+To use signalling server,please check that nodejs installed:
 
-```javascript
-//Install websocket module to node_modules
- npm install websocket
-//After moving to current directory
-node ./server.js
+- 'cd' into signalling-server directory
+- run 'npm install' 
+- run 'node ./server.js' to launch.
 
-```
+
 As of now running script(peer/splitter) in chrome tabs while directly including *Common.js*. Module system to be implemented.
 ### Splitter: 
 
@@ -86,7 +85,7 @@ Simulates single letter chunks
 #### connectToSplitter()
 Initiates signalling with the splitter.
 
-####initiateConnection(isInitiator,peer)
+#### initiateConnection(isInitiator,peer)
 Existing Peers act as active signallers to new peers and to the splitter.Active initiators create data channels while passive initiators register for ondatachannel events for other peers.
 
 #### setUpChannel(peer,type)
