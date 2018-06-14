@@ -1,0 +1,15 @@
+{
+  "name": "signalling-server",
+  "version": "1.0.0",
+  "description": "\"Web socket signalling server for communication between peers and splitter\"",
+  "main": "server.js",
+  "dependencies": {
+    "websocket": "^1.0.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "\"prayas sahni\"",
+  "license": "ISC"
+}
